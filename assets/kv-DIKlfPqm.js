@@ -1,0 +1,1 @@
+function e(){return globalThis.localStorage}var t={getItem(t){return e().getItem(t)},setItem(t,n){e().setItem(t,n)},removeItem(t){e().removeItem(t)},keys(){let t=e(),n=[];for(let e=0;e<t.length;e++){let r=t.key(e);r!==null&&n.push(r)}return n}};export{t};
